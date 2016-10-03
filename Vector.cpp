@@ -6,7 +6,7 @@ template <class T>
 class vector{
 private:
 	int size,max;
-    T *items;
+   	T *items;
 	void expand();
 public:
 	vector();
